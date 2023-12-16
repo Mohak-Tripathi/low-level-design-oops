@@ -28,11 +28,11 @@ const transactionHistoryInstance = require("../transaction/Transaction")
       });
   
       // Add the expense to the common transaction history  - Whole transaction history
-      transactionHistoryInstance.addTransaction({
-        userId: this.userId,
-        transactionId: 1, // or use your unique ID generation logic
-        expense,
-      });
+    //   transactionHistoryInstance.addTransaction({
+    //     userId: this.userId,
+    //     transactionId: 1, // or use your unique ID generation logic
+    //     expense,
+    //   });
     }
   
     deleteExpense(transactionid) {

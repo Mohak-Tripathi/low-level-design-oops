@@ -12,7 +12,9 @@
 //   };
 
 const User = require("./src/users/Users"); // Import the User class
-const transactionHistoryInstance  = require("./src/transaction/Transaction"); // Import the TransactionHistory class
+const TransactionHistory = require("./src/transaction/Transaction"); // Import the TransactionHistory class
+
+const transactionHistoryInstance = new TransactionHistory()
 
 // Create some user instances
 const user1 = new User(
